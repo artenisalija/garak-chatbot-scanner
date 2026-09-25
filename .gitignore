@@ -1,0 +1,18 @@
+# Python virtualenv created by install_garak.sh (about 6 GB, fully reproducible)
+.venv/
+__pycache__/
+*.pyc
+
+# Scan output from garak_wizard.py. It holds real attack prompts and the chatbot's raw replies,
+# which can include leaked system prompts, secrets and personal data. Never publish these.
+reports/
+
+# Secrets and per-target config
+.env
+.env.*
+rest.json
+*rest_config*.json
+worst_hits.json
+*.hitlog.jsonl
+*.report.jsonl
+*.report.html
