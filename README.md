@@ -36,8 +36,8 @@ Garak is an LLM vulnerability scanner: it sends thousands of adversarial prompts
 ## Install garak
 
 ```bash
-git clone <this-repo-url>
-cd <repo-folder>
+git clone https://github.com/artenisalija/garak-chatbot-scanner.git
+cd garak-chatbot-scanner
 bash install_garak.sh
 ```
 
